@@ -4,25 +4,23 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cin >> n;
-    long long int cost = 0, i = n - 1;
-    vector<long long int> num(n, 0);
-    for(int i = 0;i < n; i++)
-    {
-        cin >> num[i];
+   int n;
+   cin >> n;
+   vector<int> platform(n);
+   vector<int> dp(n+1);
+
+   for(int i = 0; i < n; i++) cin >> platform[i];
+
+   dp[1] = 0;
+   dp[2] = abs(platform[1] - platform[0]);
+
+   for(int i = 3 ; i <= n; i++)
+   {
+        int sum1 = dp[i-1] + abs(platform[i-1] - platform[i-2]);
+        int sum2 = dp[i-2] + abs(platform[i-1] - platform[i-3]);
+        dp[i] = min(sum1 , sum2);
     }
-    while(i >= 1)
-    {
-        if(abs(num[i-1] - num[i]) > abs(num[i-2] - num[i]))
-        {
-            cost +=  abs(num[i-2] - num[i]);
-            i -= 2;
-        }else 
-        {
-            cost +=  abs(num[i-1] - num[i]);
-            i -= 1;
-        }
-    }
-    cout << cost;
+       
+   cout << dp[n];
+
 }
