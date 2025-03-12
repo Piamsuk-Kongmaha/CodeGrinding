@@ -1,3 +1,5 @@
+// only run on ideone .com and Dev c++
+
 #define taskname "77"
 #pragma GCC target ("popcnt")
 #include <bits/stdc++.h>
