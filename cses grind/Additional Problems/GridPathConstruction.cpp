@@ -1,13 +1,15 @@
+// only run on ideone .com and Dev c++
+
 #define taskname "77"
 #pragma GCC target ("popcnt")
 #include <bits/stdc++.h>
 #define llong long long
-
+ 
 using namespace std;
-
+ 
 const int dx[4] = {1, -1, 0, 0};
 const int dy[4] = {0, 0, 1, -1};
-
+ 
 bool Check3A(int r, int c, int x1, int y1, int x2, int y2) {
     int c1 = (x1 + y1) & 1;
     int c2 = (x2 + y2) & 1;
@@ -19,7 +21,7 @@ bool Check3A(int r, int c, int x1, int y1, int x2, int y2) {
     
     return false;
 }
-
+ 
 bool Check3(int r, int c, int x1, int y1, int x2, int y2) {
     if (r != 3 || (c & 1)) return false; 
     return Check3A(r, c, x1, y1, x2, y2) ||
@@ -27,7 +29,7 @@ bool Check3(int r, int c, int x1, int y1, int x2, int y2) {
            Check3A(r, c, x2, y2, x1, y1) ||
            Check3A(r, c, x2 + 1, y2, c - x1, y1);
 }
-
+ 
 int Upper(int r, int c, int x1, int y1, int x2, int y2) { 
     if (r > c) return Upper(c, r, y1, x1, y2, x2);
     
@@ -50,19 +52,19 @@ int Upper(int r, int c, int x1, int y1, int x2, int y2) {
     
     return 0;
 }
-
+ 
 int Num(int x, int y, int r, int c) {
     return y * c + x;
 }
-
+ 
 struct Point {
     int x, y;
 };
-
+ 
 Point To_point(int u, int r, int c) {
     return {u % c, u / c};
 }
-
+ 
 vector<Point> BruteForce(int r, int c, int x1, int y1, int x2, int y2) {
     int s = Num(x1, y1, r, c), t = Num(x2, y2, r, c);
     
@@ -118,7 +120,7 @@ vector<Point> BruteForce(int r, int c, int x1, int y1, int x2, int y2) {
     
     return ans;
 }
-
+ 
 vector<Point> Optimize(int r, int c, int x1, int y1, int x2, int y2, bool sw = false) {
     int up = Upper(r, c, x1, y1, x2, y2);
     
@@ -266,7 +268,7 @@ vector<Point> Optimize(int r, int c, int x1, int y1, int x2, int y2, bool sw = f
         return BruteForce(r, c, x1-1, y1-1, x2-1, y2-1);
     }
 }
-
+ 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(NULL);
