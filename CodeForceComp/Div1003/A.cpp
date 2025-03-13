@@ -17,7 +17,7 @@ int main()
     {
         i.erase(i.end()-2, i.end());
         i+='i';
-        cout << i << '\n';
+        cout << i << '\n';     
     }
     
 }
