@@ -1,15 +1,17 @@
 #include<bits/stdc++.h>
 
 using namespace std;
+int n,m;
+bool a[51][51];
+unsigned long long int b[51][51];
 
 int main()
 {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
-    int n,m;
+    
     cin >> n >> m;
-    bool a[51][51];
-    unsigned long long int b[51][51];
+    
         
     int temp;
     cin >> temp;
@@ -27,7 +29,7 @@ int main()
         for(int j = 1;j <=m; j++)
         {
             if(a[i][j]) continue;
-            else b[i][j] += b[i-1][j] + b[i][j-1];
+            b[i][j] += b[i-1][j] + b[i][j-1];
            }
     }
 

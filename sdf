@@ -1,0 +1,56 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int counts = 0;
+int c[2001][2001];  // Grid for input
+
+void candle(int start_i, int start_j) {
+    stack<pair<int, int>> stk;
+    stk.push({start_i, start_j});
+    
+    // 8 possible directions (including diagonals)
+    int dx[] = {1, -1, 0, 0, 1, 1, -1, -1};
+    int dy[] = {0, 0, 1, -1, 1, -1, 1, -1};
+
+    while (!stk.empty()) {
+        auto [i, j] = stk.top();
+        stk.pop();
+
+        for (int d = 0; d < 8; d++) {
+            int ni = i + dx[d], nj = j + dy[d];
+            if (c[ni][nj] == 1) {
+                c[ni][nj] = 0;
+                stk.push({ni, nj});
+            }
+        }
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int a, b;
+    cin >> a >> b;
+    string d[a];
+
+    // Read input
+    for (int i = 0; i < a; i++) {
+        cin >> d[i];
+        for (int j = 0; j < b; j++) {
+            c[i + 1][j + 1] = d[i][j] - '0';
+        }
+    }
+
+    // Count connected components
+    for (int i = 1; i <= a; i++) {
+        for (int j = 1; j <= b; j++) {
+            if (c[i][j] == 1) {
+                candle(i, j);
+                counts++;
+            }
+        }
+    }
+
+    cout << counts;
+}
