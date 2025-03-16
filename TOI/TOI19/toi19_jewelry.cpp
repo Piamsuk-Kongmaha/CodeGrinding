@@ -16,7 +16,7 @@ int main()
     stk.emplace(0);
     for(int i = 1; i <= n; i++){
         if(s[i] == 'T'){
-            c += (long long )(i - stk.top());
+            c += (long long )(i);
             if(stk.top() != 0)stk.pop();
             q.emplace_back(i);
         }else{
