@@ -5,7 +5,6 @@
 using std::vector;
 
 int main() {
-	freopen("shell.in", "r", stdin);
 
 	int n;
 	scanf("%d", &n);
@@ -23,6 +22,5 @@ int main() {
 		counter[shell_at_pos[g]]++;
 	}
 
-	freopen("shell.out", "w", stdout);
 	printf("%d\n", std::max({counter[0], counter[1], counter[2]}));
 }

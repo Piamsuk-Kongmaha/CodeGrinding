@@ -6,6 +6,8 @@
         "vector": "cpp",
         "df": "cpp",
         "random": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp"
     }
 }
