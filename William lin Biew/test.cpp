@@ -1,53 +1,20 @@
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> 
+
 using namespace std;
+int n;
+vector<int> v1;
 
-void think(string pat, string txt, int q)
-{
-    int M = pat.size();
-    int N = txt.size();
-    int i, j;
-    int p = 0; 
-    int t = 0; 
-    int h = 1;
-    int d = 256; 
-    for (i = 0; i < M - 1; i++)
+int think(int idx, int sum1, int sum2){
+    if(idx == n) return (abs(sum1 - sum2));
 
-    for (i = 0; i < M; i++) {
-        p = (d * p + pat[i]) % q;
-        t = (d * t + txt[i]) % q;
-    }
+    return min(think(idx+1, sum1 + v1[idx],sum2 ), think(idx+1 , sum1, sum2+v1[idx])); 
 
-    for (i = 0; i <= N - M; i++) {
-
-        if (p == t) {
-            for (j = 0; j < M; j++) {
-                if (txt[i + j] != pat[j]) {
-                    break;
-                }
-            }
-        h = (h * d) % q;
-
-            if (j == M)
-                cout << "Pattern found at index " << i
-                     << endl;
-        }
-
-        if (i < N - M) {
-            t = (d * (t - txt[i] * h) + txt[i + M]) % q;
-
-            if (t < 0)
-                t = (t + q);
-        }
-    }
 }
-    
-int main()  
+int main()
 {
-    string txt = "AABAACAADAABAAADA";
-    string pat = "AABA";
+    cin >> n;
+    v1.assign(n,0);
+    for(int i =0; i < n; i++) cin >> v1[i];
+    cout << think(0,0,0);
 
-    int q = INT_MAX;
-    think(pat, txt, q);
-    return 0;
 }
-
