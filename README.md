@@ -48,8 +48,8 @@ The contests I’ve participated in are varied—some were online challenges, wh
 
 Here’s a brief list of contests that stand out to me:
 
-- **TOI (Training Olympiad of Informatics)**: This contest was one of my first introductions to the high-stakes world of competitive programming. The problems tested not just my knowledge of algorithms but also my ability to stay calm under pressure. It taught me the importance of clear problem-solving strategies and helped me grow as a problem solver.
-  
+- **IOI (International Olympiad in Informatics)**: The IOI is one of the most prestigious competitive programming contests worldwide. It was a significant milestone in my coding journey. The problems at IOI pushed me to think deeply and apply my knowledge of algorithms and data structures in ways I had never done before. Participating in IOI taught me how to approach complex problems methodically and work under pressure.
+
 - **Codeforces Rounds**: Codeforces has always been a favorite of mine due to the variety of problems it offers and its highly competitive nature. The fast-paced rounds forced me to think quickly and efficiently. I’ve learned to tackle problems with greater confidence and speed as I participated in more and more rounds.
 
 - **AtCoder**: Known for its high-quality problems, AtCoder has been a platform that pushed me to deepen my understanding of advanced algorithms. From its Beginner Contests to more challenging Grand Contests, AtCoder has provided me with a continuous opportunity to improve my problem-solving skills and learn new techniques.
