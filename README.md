@@ -22,7 +22,7 @@ Here, you'll find:
 - **Reflection on my journey**: I’ll occasionally add notes on my thought process during a contest, what worked, what didn’t, and how I could improve.
 - **Mentorship and learning**: This repository isn’t just about me. It’s also about sharing what I’ve learned so others can follow the same path. If you're new to competitive programming or coding in general, you’ll find helpful insights and links to resources that helped me along the way.
 
-### Why I Keep Pushing
+## Why I Keep Pushing
 
 The grind never stops. It’s easy to fall into a comfort zone, but one thing I've learned is that the real growth comes from pushing yourself past the limits of your knowledge. Every contest, every challenge, is an opportunity to learn, even if you fail. Failure isn’t the end; it’s just the beginning of the next phase in the learning cycle.
 
