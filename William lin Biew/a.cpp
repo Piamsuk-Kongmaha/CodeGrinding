@@ -7,7 +7,7 @@ bool ch(vector<vector<int>> &M, int r, int c, int rows, int cols) {
     return (r >= 0 && r < rows) && (c >= 0 && c < cols) && (M[r][c] == 1);
 }
 
-void DFS(vector<vector<int>> &M, int r, int c, int rows, int cols, int &area) {
+void dfs(vector<vector<int>> &M, int r, int c, int rows, int cols, int &area) {
     
     vector<int> dirR = {-1, -1, -1, 0, 0, 1, 1, 1};
     vector<int> dirC = {-1, 0, 1, -1, 1, -1, 0, 1};
@@ -21,11 +21,11 @@ void DFS(vector<vector<int>> &M, int r, int c, int rows, int cols, int &area) {
           int newC = c + dirC[i];
           
         if (ch(M, newR, newC, rows, cols))
-            DFS(M, newR, newC, rows, cols, area);
+            dfs(M, newR, newC, rows, cols, area);
     }
 }
 
-int largestRegion(vector<vector<int>> &M) {
+int think(vector<vector<int>> &M) {
 
       int rows = M.size(), cols = M[0].size();
   
@@ -35,7 +35,7 @@ int largestRegion(vector<vector<int>> &M) {
               
             if (M[i][j] == 1) {
                 int area = 0;
-                DFS(M, i, j, rows, cols, area);
+                dfs(M, i, j, rows, cols, area);
 
                 maxArea = max(maxArea, area);
             }
@@ -50,7 +50,7 @@ int main() {
                              {0, 1, 0, 0, 0},
                              {0, 0, 0, 0, 1}};
 
-    cout << largestRegion(M) << '\n';
+    cout << think(M) << '\n';
 
     return 0;
 }
