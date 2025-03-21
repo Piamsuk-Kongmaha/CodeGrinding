@@ -40,18 +40,18 @@ One of the most valuable lessons I’ve learned on this journey is the power of 
 
 When I look back at my progress, it’s clear that the small wins add up. The more I practiced, the better I got. And even when things didn’t go well, the key was to keep going. I would review my mistakes, learn from them, and return to the next challenge stronger and more focused.
 
-## The Contests
-
+The Contests
 The contests I’ve participated in are varied—some were online challenges, while others were hosted by universities and coding platforms. Each of these contests brought its own set of challenges, but I embraced them all. Every contest was a learning experience that added value to my coding repertoire.
 
 Here’s a brief list of contests that stand out to me:
 
-- **LeetCode Weekly Contests**: These were my first exposure to competitive programming and were a significant part of my learning process. They pushed me to think fast and refine my coding under time pressure.
-- **Codeforces Rounds**: The intensity of Codeforces contests taught me how to handle stress and approach problems with a clear mind.
-- **Google Kickstart**: Kickstart provided me with high-quality problems and a glimpse into the challenges that top-tier tech companies use to test candidates.
-- **HackerRank and CodeChef**: Both of these platforms had various contests that helped me sharpen my algorithmic skills and deepen my understanding of complex topics.
+TOI (Training Olympiad of Informatics): This contest was one of my first introductions to the high-stakes world of competitive programming. The problems tested not just my knowledge of algorithms but also my ability to stay calm under pressure. It taught me the importance of clear problem-solving strategies and helped me grow as a problem solver.
 
-## My Motivation
+Codeforces Rounds: Codeforces has always been a favorite of mine due to the variety of problems it offers and its highly competitive nature. The fast-paced rounds forced me to think quickly and efficiently. I’ve learned to tackle problems with greater confidence and speed as I participated in more and more rounds.
+
+AtCoder: Known for its high-quality problems, AtCoder has been a platform that pushed me to deepen my understanding of advanced algorithms. From its Beginner Contests to more challenging Grand Contests, AtCoder has provided me with a continuous opportunity to improve my problem-solving skills and learn new techniques.
+
+CodeChef: CodeChef has been a key platform in my competitive programming journey, with its extensive collection of problems and regular contests. Whether it's the long challenge or the short contests, CodeChef has pushed me to think creatively and refine my algorithmic skills.
 
 At the core of this journey is my drive for self-improvement. I believe in pushing myself beyond my comfort zone. The thrill of solving difficult problems and the satisfaction of seeing progress over time are the things that motivate me. I also take great inspiration from others in the competitive programming community—seeing their successes and learning from their experiences.
 
