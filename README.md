@@ -1,9 +1,9 @@
 
 ---
 
-# Code Grinding - My Journey Through Contests
+# Coding Grind - My Journey Through Contests
 
-Welcome to the **Code Grinding** repository! This space is a testament to my journey through the world of coding challenges, competitive programming, and relentless self-improvement. It's a record of my progress, my wins, my losses, and all the hard work I've put into sharpening my skills. If you're someone who’s just starting out in the world of competitive programming or a seasoned coder, this repository is for you.
+Welcome to the **Coding Grind** repository! This space is a testament to my journey through the world of coding challenges, competitive programming, and relentless self-improvement. It's a record of my progress, my wins, my losses, and all the hard work I've put into sharpening my skills. If you're someone who’s just starting out in the world of competitive programming or a seasoned coder, this repository is for you.
 
 ## The Beginning: Where It All Started
 
@@ -48,7 +48,7 @@ The contests I’ve participated in are varied—some were online challenges, wh
 
 Here’s a brief list of contests that stand out to me:
 
-- **IOI (International Olympiad in Informatics)**: The IOI is one of the most prestigious competitive programming contests worldwide. It was a significant milestone in my coding journey. The problems at IOI pushed me to think deeply and apply my knowledge of algorithms and data structures in ways I had never done before. Participating in IOI taught me how to approach complex problems methodically and work under pressure.
+- **Junior Dev Contest**: The Junior Dev Contest was an early milestone in my coding journey. It helped me understand the foundational principles of competitive programming and set the stage for more advanced challenges. The problems tested not only my algorithmic knowledge but also my ability to handle challenges in a limited amount of time. It was an incredible starting point for me, and I’m proud of the progress I’ve made since.
 
 - **Codeforces Rounds**: Codeforces has always been a favorite of mine due to the variety of problems it offers and its highly competitive nature. The fast-paced rounds forced me to think quickly and efficiently. I’ve learned to tackle problems with greater confidence and speed as I participated in more and more rounds.
 
@@ -72,6 +72,6 @@ Also, if you’re new to competitive programming and need help or guidance, don'
 
 This repository is a reflection of my journey, my growth, and my commitment to becoming a better problem solver. It’s not just about the code—it’s about the learning, the persistence, and the mindset that I’ve developed over time. I look back at where I started and see how far I’ve come, and that’s what keeps me moving forward.
 
-The grind is tough, but it’s worth it.
+# The grind is tough, but it’s worth it.
 
 ---
