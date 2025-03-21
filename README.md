@@ -1,8 +1,5 @@
-Sure! Here's a 1000-word empowering README.md for your repository about coding contests and the journey you've gone through:
 
----
-
-# Coding Grind - My Journey Through Contests
+# Coding Grinding - My Journey Through Contests
 
 Welcome to the **Coding Grind** repository! This space is a testament to my journey through the world of coding challenges, competitive programming, and relentless self-improvement. It's a record of my progress, my wins, my losses, and all the hard work I've put into sharpening my skills. If you're someone who’s just starting out in the world of competitive programming or a seasoned coder, this repository is for you.
 
