@@ -9,6 +9,10 @@
         "ostream": "cpp",
         "chrono": "cpp",
         "functional": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "bitset": "cpp",
+        "algorithm": "cpp",
+        "format": "cpp"
     }
 }
